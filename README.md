@@ -132,7 +132,7 @@ https://github.com/othneildrew/Best-README-Template -->
 
 <!-- LICENSE -->
 ## License or Author
-  * Authored by Uditya Laad, Himalaya Sharma, Dakota Wang - University of Waterloo
+  * Authored by: Uditya Laad, Himalaya Sharma, Dakota Wang - University of Waterloo
   * <b> Case Study</b> : Suggested By Prof. Hatham Amar - University of Waterloo
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
