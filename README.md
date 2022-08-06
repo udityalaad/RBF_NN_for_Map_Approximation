@@ -78,14 +78,18 @@ https://github.com/othneildrew/Best-README-Template -->
 <!-- USAGE EXAMPLES -->
 ## Case Study Analysis
   We tried our RBF neural network for the following configuration:
+  
   f(x<sub>1</sub>, x<sub>2</sub>) = +1, &nbsp; if x<sub>1</sub><sup>2</sup> - x<sub>2</sub><sup>2</sup> <= 1
+  
   &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  -1, &nbsp; &nbsp;if x<sub>1</sub><sup>2</sup> - x<sub>2</sub><sup>2</sup> > 1
 
   For training, we used 441 randomly sampled data points in the form (x<sub>i</sub>, x<sub>j</sub>), such that:
+  
   &nbsp; &nbsp; &nbsp; &nbsp; x<sub>i</sub> = -2 + 0.2 i; &nbsp; &nbsp; i E [0, 20]
+  
   &nbsp; &nbsp; &nbsp; &nbsp; x<sub>j</sub> = -2 + 0.2 j; &nbsp; &nbsp; j E [0, 20]
 
-
+  <br>
   Following were the results of the network, in their respective settings:
   * ##### With constant Spread:
       <img src="Read_Me_Content/Case_Study/constant_spread.jpg" alt="Constant Spread" >
