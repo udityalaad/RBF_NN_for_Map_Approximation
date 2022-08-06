@@ -89,6 +89,11 @@ https://github.com/othneildrew/Best-README-Template -->
   
   &nbsp; &nbsp; &nbsp; &nbsp; x<sub>j</sub> = -2 + 0.2 j; &nbsp; &nbsp; j E [0, 20]
 
+
+  * spreads = [0.1, 0.25, 0.5, 1, 1.5, 2, 3, 4, 5, 7, 10, 15, 20, 25, 30, 40, 50]
+  * Radial Function = “Gaussian Kernel”, Loss Function = “Mean Square Error”
+
+
   <br>
   Following were the results of the network, in their respective settings
   
@@ -121,10 +126,7 @@ https://github.com/othneildrew/Best-README-Template -->
   * The above results show the importance of ‘Spread’ value in Radial Basis Function Neural Networks.
   * The performance of the network largely varies depending on the spread value, compared to other parameters.
   * A spread value between ‘1’ and ‘2’ appears to provide an efficient result, with good accuracies and low cumulative error - for this case study.
-
-  #### Following Configuration was used:
-  * spreads = [0.1, 0.25, 0.5, 1, 1.5, 2, 3, 4, 5, 7, 10, 15, 20, 25, 30, 40, 50]
-  * Radial Function = “Gaussian Kernel”, Loss Function = “Mean Square Error”
+  
 
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
