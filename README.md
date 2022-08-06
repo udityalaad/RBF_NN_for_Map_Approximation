@@ -89,6 +89,7 @@ https://github.com/othneildrew/Best-README-Template -->
   
   &nbsp; &nbsp; &nbsp; &nbsp; x<sub>j</sub> = -2 + 0.2 j; &nbsp; &nbsp; j E [0, 20]
 
+  <br>
 
   * spreads = [0.1, 0.25, 0.5, 1, 1.5, 2, 3, 4, 5, 7, 10, 15, 20, 25, 30, 40, 50]
   * Radial Function = “Gaussian Kernel”, Loss Function = “Mean Square Error”
