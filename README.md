@@ -38,7 +38,7 @@ https://github.com/othneildrew/Best-README-Template -->
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-  This is a closed-form Radial Basis Neural Network for approximating custom mappings using radial curve of the user's choice. The network had been created from cratch, and supports different custom configurations and data domains.
+  This is a closed-form Radial Basis Neural Network for approximating custom mappings using a curve of the user's choice. The network has been created from cratch, and supports different custom configurations and data domains.
 
   For the purpose of analysis, we also ran the network on a mapping; the results of which can be found in one of the below sections.
 
