@@ -79,9 +79,9 @@ https://github.com/othneildrew/Best-README-Template -->
 ## Case Study Analysis
   We tried our RBF neural network for the following configuration:
   
-  f(x<sub>1</sub>, x<sub>2</sub>) = +1, &nbsp; if x<sub>1</sub><sup>2</sup> - x<sub>2</sub><sup>2</sup> <= 1
+  f(x<sub>1</sub>, x<sub>2</sub>) = +1, &nbsp; if x<sub>1</sub><sup>2</sup> + x<sub>2</sub><sup>2</sup> <= 1
   
-  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  -1, &nbsp; &nbsp;if x<sub>1</sub><sup>2</sup> - x<sub>2</sub><sup>2</sup> > 1
+  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  -1, &nbsp; &nbsp;if x<sub>1</sub><sup>2</sup> + x<sub>2</sub><sup>2</sup> > 1
 
   For training, we used 441 randomly sampled data points in the form (x<sub>i</sub>, x<sub>j</sub>), such that:
   
@@ -92,22 +92,22 @@ https://github.com/othneildrew/Best-README-Template -->
   <br>
   Following were the results of the network, in their respective settings
   
-  * #### With constant Spread:
+  * #### 0. With constant Spread:
       <img src="Read_Me_Content/Case_Study/constant_spread.jpg" alt="Constant Spread" >
 
-  * #### With varying Spread, and Centers = Inputs Points:
+  * #### 1. With varying Spread, and Centers = Inputs Points:
       <img src="Read_Me_Content/Case_Study/centers_input.jpg" alt="Centers = Inputs points"></img>
       - Mean square Error keeps increasing with increase in ‘Spread’ value & after ‘spread = 10’ stays almost constant
       - Training Accuracies have very little fluctuations initially, and then suddenly drop to around 90 for spread >= 10.
       - Testing (Validation) accuracies follow a trend similar to training, except that the initial fluctuations are large. [The large initial fluctuations are expected, since the validation set may hold new inputs (which were not exposed earlier, during training)]
     
-  * #### With varying Spread, and Centers = 150 Random Inputs Points:
+  * #### 2.a. With varying Spread, and Centers = 150 Random Inputs Points:
       <img src="Read_Me_Content/Case_Study/centers_150_random_input.jpg" alt="Centers = Inputs points"> </img>
       - Mean square Error keeps increasing with increase in ‘Spread’ value (With the exception of ‘spread = 0.1 to 0.5’ where it actually drops between the 2 points) & after ‘spread = 10’ stays almost constant
       - Training Accuracies – Results are again similar to those achieved in Part-1, except for ‘spread = 0.1 to 0.5’, where it actually goes up by a small margin.
       - Testing (Validation) accuracies – Results are similar to those achieved in Part-1, although not exactly the same.
 
-  * #### With varying Spread, and Centers = 150 Points (Found using K-Means Algorithm API):
+  * #### 2.b. With varying Spread, and Centers = 150 Points (Found using K-Means Algorithm API):
       <img src="Read_Me_Content/Case_Study/centers_150_kmeans_input.jpg" alt="Centers = Inputs points" > </img>
       - The results are similar to those achieved in Part 2.a] and for ‘spread = 0.1 to 0.5’ the change is relatively smaller in case of all 3 parameters.
 
@@ -120,9 +120,9 @@ https://github.com/othneildrew/Best-README-Template -->
   #### Comment on Spread Value:
   * The above results show the importance of ‘Spread’ value in Radial Basis Function Neural Networks.
   * The performance of the network largely varies depending on the spread value, compared to other parameters.
-  * A spread value between ‘1’ and ‘2’ appears to provide an efficient result, with good accuracies and low cumulative error.
+  * A spread value between ‘1’ and ‘2’ appears to provide an efficient result, with good accuracies and low cumulative error - for this case study.
 
-  #### Following Configuration has been used:
+  #### Following Configuration was used:
   * spreads = [0.1, 0.25, 0.5, 1, 1.5, 2, 3, 4, 5, 7, 10, 15, 20, 25, 30, 40, 50]
   * Radial Function = “Gaussian Kernel”, Loss Function = “Mean Square Error”
 
@@ -147,7 +147,7 @@ https://github.com/othneildrew/Best-README-Template -->
   
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; udityalaad123@gmail.com
 
-  <b>Project Link</b> &nbsp; [https://github.com/udityalaad/Clust_Reduce](https://github.com/udityalaad/Clust_Reduce)
+  <b>Project Link</b> &nbsp; [https://github.com/udityalaad/RBF_NN_for_Map_Approximation](https://github.com/udityalaad/RBF_NN_for_Map_Approximation)
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
