@@ -68,7 +68,7 @@ https://github.com/othneildrew/Best-README-Template -->
 
   #### Installation & Use
   1. Get RBFN.py
-  2. Import RBFN in your implementation
+  2. Import RBF_Neural_Nw in your implementation
   3. Use the functions as per your convinience and configuration.
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
