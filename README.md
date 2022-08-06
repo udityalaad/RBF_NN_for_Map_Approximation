@@ -90,23 +90,24 @@ https://github.com/othneildrew/Best-README-Template -->
   &nbsp; &nbsp; &nbsp; &nbsp; x<sub>j</sub> = -2 + 0.2 j; &nbsp; &nbsp; j E [0, 20]
 
   <br>
-  Following were the results of the network, in their respective settings:
-  * ##### With constant Spread:
+  Following were the results of the network, in their respective settings
+  
+  * #### With constant Spread:
       <img src="Read_Me_Content/Case_Study/constant_spread.jpg" alt="Constant Spread" >
 
-  * ##### With varying Spread, and Centers = Inputs Points:
+  * #### With varying Spread, and Centers = Inputs Points:
       <img src="Read_Me_Content/Case_Study/centers_input.jpg" alt="Centers = Inputs points"></img>
       - Mean square Error keeps increasing with increase in ‘Spread’ value & after ‘spread = 10’ stays almost constant
       - Training Accuracies have very little fluctuations initially, and then suddenly drop to around 90 for spread >= 10.
       - Testing (Validation) accuracies follow a trend similar to training, except that the initial fluctuations are large. [The large initial fluctuations are expected, since the validation set may hold new inputs (which were not exposed earlier, during training)]
     
-  * ##### With varying Spread, and Centers = 150 Random Inputs Points:
+  * #### With varying Spread, and Centers = 150 Random Inputs Points:
       <img src="Read_Me_Content/Case_Study/centers_150_random_input.jpg" alt="Centers = Inputs points"> </img>
       - Mean square Error keeps increasing with increase in ‘Spread’ value (With the exception of ‘spread = 0.1 to 0.5’ where it actually drops between the 2 points) & after ‘spread = 10’ stays almost constant
       - Training Accuracies – Results are again similar to those achieved in Part-1, except for ‘spread = 0.1 to 0.5’, where it actually goes up by a small margin.
       - Testing (Validation) accuracies – Results are similar to those achieved in Part-1, although not exactly the same.
 
-  * ##### With varying Spread, and Centers = 150 Points (Found using K-Means Algorithm API):
+  * #### With varying Spread, and Centers = 150 Points (Found using K-Means Algorithm API):
       <img src="Read_Me_Content/Case_Study/centers_150_kmeans_input.jpg" alt="Centers = Inputs points" > </img>
       - The results are similar to those achieved in Part 2.a] and for ‘spread = 0.1 to 0.5’ the change is relatively smaller in case of all 3 parameters.
 
